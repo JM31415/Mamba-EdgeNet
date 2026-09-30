@@ -4,7 +4,7 @@ Official implementation of:
 
 **Mamba-EdgeNet: Learnable Edge-Guided State Space Model for Skin Lesion Segmentation**
 
-Jiaming Xu, Qi Mao, Lei Qiu, Yu Chen, Gongshuang Tao
+Jiaming Xu, Qi Mao*, Lei Qiu, Yu Chen, Gongshuang Tao
 
 Biomedical Physics & Engineering Express, IOP Publishing, 2026.
 
