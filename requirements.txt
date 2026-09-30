@@ -1,0 +1,11 @@
+albumentations==2.0.5
+kornia
+matplotlib==3.10.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+Pillow
+scikit-image==0.25.2
+scipy==1.14.1
+tqdm==4.67.1
+mamba-ssm==2.2.5
+causal-conv1d
