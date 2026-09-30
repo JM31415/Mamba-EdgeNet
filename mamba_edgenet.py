@@ -1701,7 +1701,7 @@ def train(args, snapshot_path):
                 overlay_relaxed[fn == 1] = [0, 0, 255]
                 enhanced_img_np = shallow_input_image[0, 0].detach().cpu()
                 cnn_prob = torch.sigmoid(enhanced_img_np)
-            plot_shallow_pred_hist(torch.sigmoid(shallow_edge_feat_list[1]), epoch_num, save_dir='os.path.join(vis_dir, 'shallow_hist')')
+            plot_shallow_pred_hist(torch.sigmoid(shallow_edge_feat_list[1]), epoch_num, save_dir=os.path.join(vis_dir, 'shallow_hist'))
             fig = plt.figure(figsize=(30, 6))
             ax1 = fig.add_subplot(1, 6, 1)
             ax1.imshow(label_np, cmap='gray')
